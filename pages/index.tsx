@@ -65,8 +65,8 @@ const Home: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Saas UI Landingspage"
-        description="Free SaaS landingspage starter kit"
+        title="ProBuild landing page"
+        description="Let's get you launched immediately!"
       />
       <Box>
         <HeroSection />
@@ -97,15 +97,15 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Lorem ipsum doharis
+                <Br /> florance benaris
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                ProBuild <Em>a team for the win</Em>
+                <Br /> go get it guys! Waist no time, cause  <Br />{" "}
+                your competitors aren't.
               </FallInPlace>
             }
           >
@@ -156,7 +156,7 @@ const HeroSection: React.FC = () => {
                   layout="fixed"
                   width={1200}
                   height={762}
-                  alt="Screenshot of a ListPage in Saas UI Pro"
+                  alt="Screenshot of a ListPage"
                   quality="75"
                   priority
                 />
@@ -174,9 +174,9 @@ const HeroSection: React.FC = () => {
         pt="20"
         features={[
           {
-            title: "Accessible",
+            title: "Professional",
             icon: FiSmile,
-            description: "All components strictly follow WAI-ARIA standards.",
+            description: "Lorum dipsum telitabis dolisarijs.",
             iconPosition: "left",
             delay: 0.6,
           },
@@ -184,7 +184,7 @@ const HeroSection: React.FC = () => {
             title: "Themable",
             icon: FiSliders,
             description:
-              "Fully customize all components to your brand with theme support and style props.",
+              "Describe plumbatribani jellan beduractil flemo.",
             iconPosition: "left",
             delay: 0.8,
           },
